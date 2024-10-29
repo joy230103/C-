@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -96,4 +97,49 @@ int main()
   // }
 
   // 5. Giai phuong trinh
+  // int a, b, c, delta;
+  // cout << "Nhap a: ";
+  // cin >> a;
+  // cout << "Nhap b: ";
+  // cin >> b;
+  // cout << "Nhap c: ";
+  // cin >> c;
+  // delta = b * b - 4 * a * c;
+  // if (delta < 0)
+  // {
+  //   cout << "Phuong trinh vo nghiem" << endl;
+  // }
+  // else if (delta == 0)
+  // {
+  //   cout << "Phuong trinh co nghiem kep " << "x1 = x2 = " << -b / 2 * a << endl;
+  // }
+  // else
+  // {
+  //   cout << "Co 2 nghiem phan biet " << "x1 = " << (-b + sqrt(delta)) / 2 * a << "," << " x2 = " << (-b - sqrt(delta)) / 2 * a << endl;
+  // }
+
+  // 6. Nhap vao thang de biet la quy may
+  int thang;
+  cout << "Moi ban nhap thang: ";
+  cin >> thang;
+  if (thang == 1 || thang == 2 || thang == 3)
+  {
+    cout << "Quy 1" << endl;
+  }
+  else if (thang == 4 || thang == 5 || thang == 6)
+  {
+    cout << "Quy 2" << endl;
+  }
+  else if (thang == 7 || thang == 8 || thang == 9)
+  {
+    cout << "Quy 3" << endl;
+  }
+  else if (thang == 10 || thang == 11 || thang == 12)
+  {
+    cout << "Quy 4" << endl;
+  }
+  else
+  {
+    cout << "Nhap thang tao lao, gion mat ha ma" << endl;
+  }
 }
